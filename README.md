@@ -19,6 +19,7 @@ Step 5: Plot the magnitude spectrum with x-label and y-label with suitable title
 Step 6: Terminate the program.
 
 ## PROGRAM: 
+```
 clc; % clear screen
 clear all; % clear screen
 close all; % close all figure windows
@@ -38,6 +39,7 @@ hn=hd.*wh
 w=0:0.01:pi; 
 h=freqz(hn,1,w);
 plot(w/pi,abs(h),'blue');
+```
 
 ## OUTPUT:
 <img width="1593" height="821" alt="dspexp5" src="https://github.com/user-attachments/assets/0b3a4b80-697e-4a6f-a8d1-57d703f93d39" />
